@@ -1,0 +1,628 @@
+/* Estilos Gerais */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,regular,italic,600,600italic,700,700italic,800,800italic);
+
+* {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+body {
+    width: 100%;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/* Container */
+
+.header .container {
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFFFFF;
+    margin: 0 auto;
+	padding: 0px
+}
+
+/* Header */
+
+.header {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+}
+
+/* Começo left */
+
+.header .left {
+    display: flex;
+    align-items: center;
+}
+
+.header .left .logo {
+    margin: 10px 70px 10px 110px;
+    position: relative;
+}
+
+.header .left nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.header .left nav ul img {
+    position: absolute;
+    width: 3px;
+    height: 15px;
+    margin-left: 440px;
+}
+
+.header .left nav ul li {
+    margin-right: 23px;
+}
+
+.header .left nav ul li a {
+    font-family: "Open Sans";
+    font-size: 15px;
+    line-height: 165%;
+    color: #495057;
+}
+
+.header .left nav ul li a:hover {
+    color: #FF0000;
+}
+
+/* Fim left */
+
+/* Começo right */
+
+.header .right {
+    display: flex;
+    align-items: center;
+}
+
+.header .right ul {
+    display: flex;
+    align-items: center;
+}
+
+.header .right ul li {
+    margin-right: 45px;
+}
+
+.header .right ul li a {
+    display: flex;
+    font-family: "Open Sans";
+    font-size: 15px;
+    line-height: 165%;
+    color: #495057;
+}
+
+.header .right ul li a:hover {
+    color: #FF0000;
+}
+
+.header .right img {
+    margin: 10px 15px 10px 0;
+}
+
+.btn-preto {
+    display: flex;
+    width: 172px;
+    height: 36px;
+   
+    margin-right: 20px;
+    border-radius: 120px;
+    align-items: center;
+    justify-content: center;
+    background-color: #343A40;
+}
+
+.btn-preto span {
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: -0.02em;
+    line-height: 22px;
+}
+
+/* Fim right */
+
+/* Banner */
+.banner {
+   width: 100%;
+   height: 547px;
+   background-size: cover;
+   justify-content: center;
+}
+
+.banner .container {
+    display: flex;
+    align-items: center;
+    background: url("../img/bg.png") no-repeat;
+    height: 547px;
+    top: 135px;
+}
+
+.banner .left h1 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 71px;
+    line-height: 97px;
+    margin-left: 100px;
+    white-space: nowrap;
+    /* identical to box height */
+
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+
+.banner .left p {
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 600px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.banner .left .linha {
+    position: absolute;
+    display: flex;
+    width: 137px;
+   
+    margin-left: 100px;
+    top: 180px;
+}
+
+.banner .left h2 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 76px;
+    letter-spacing: -0.02em;
+    color: #FFE211;
+    margin-left: 100px;
+    top: 220px;
+}
+
+.banner .left img {
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+.banner .left .icon_app p {
+    position: absolute;
+    width: 195px;
+    height: 21px;
+
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 131.68%;
+    
+    margin-left: 150px;
+    top: 10px;
+
+    letter-spacing: -0.02em;
+    white-space: nowrap;
+
+    color: #FFFFFF;
+
+    opacity: 0.9;
+}
+
+.banner .left .icon_app {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    margin-left: 240px;
+    top: 380px;
+}
+
+/* banner right */
+
+.banner .right .maquininha {
+    position: absolute;
+    width: 268px;
+    height: 490px;
+    background: url("../img/maquininha.png") no-repeat;
+    margin-left: 120px;
+    top: 110px;
+    z-index: 1;
+}
+
+.banner .right .circulo-amarelo {
+    position: absolute;
+    width: 104px;
+    top: 100px;
+    margin-left: 70px;
+    z-index: 2;
+}
+
+.banner .right .quadrados {
+    position: absolute;
+    width: 62px;
+    height: 83px;
+    margin-left: 420px;
+    top: 100px;
+    left: 600px;
+}
+
+.banner .right h2{
+    position: absolute;
+    display: flex;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+
+    margin-left: 450px;
+    top: 110px;
+}
+
+.banner .right p {
+    position: absolute;
+    display: flex;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 131.68%;
+    /* or 21px */
+
+    letter-spacing: -0.02em;
+
+    margin: 0 0 50px 450px;
+
+    color: #FFFFFF;
+    top: 170px;
+}
+
+.banner .right ul {
+    margin-top: 60px;
+}
+
+.banner .right ul li {
+    display: flex;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    margin: 20px 0 20px 530px;
+
+    color: #FFFFFF;
+    margin-left: 475px;
+    top: 240px;
+}
+
+.banner .right ul li::before {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: url("../img/marcador.png") no-repeat ;
+    margin: 10px -23px;
+}
+
+.banner .right .retangulo-bg {
+    position: absolute;
+    display: flex;
+    width: 335px;
+    height: 152px;
+    background: #97233A;
+    opacity: 0.3;
+    border: 120px;
+    margin-left: 290px;
+    border-radius: 0 25px 0  0;
+    top: 394px;
+}
+
+.banner .right .retangulo-bg .icone {
+    position: absolute;
+    width: 25.6px;
+    height: 14px;
+    margin-left: 150px;
+    top: 50px;
+}
+
+.banner .right .retangulo-bg .icone p {
+    position: absolute;
+    display: flex;
+    width: 116px;
+    height: 63px;
+    
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 131.68%;
+
+    margin-left: 30px;
+    top: -10px;
+    letter-spacing: -0.01em;
+
+    color: #FFFFFF;
+   
+}
+/*  */
+
+/* Botão branco COMPRAR */
+
+.btn-branco  {
+    display: flex;
+    width: 150px;
+    height: 48px;
+    margin-left: 100px;
+    margin-right: 20px;
+    background-color: #FFFFFF;
+    border-radius: 2220px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-branco span {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: #F22824;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+
+/*  */
+
+/* Vantagens l*/
+
+.vantagens .container{
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    background: #FFFFFF;
+}
+
+
+.vantagens {
+    width: 100%;
+    position: relative;
+}
+
+.vantagens .left h2{
+    color: #DC292E;
+    /* position: absolute; */
+    display: flex;
+    width: 72px;
+    height: 65px;
+
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 65px;
+    letter-spacing: -0.02em;
+    margin: 100px 20px 5px 110px;
+}
+
+.vantagens .left .subtitulo {
+    /* position: absolute; */
+    display: flex;
+    width: 112px;
+    height: 25px;
+
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+
+    letter-spacing: -0.02em;
+
+    color: #323835;
+    margin: 0 0 5px 110px;
+}
+
+.vantagens .left p {
+    /* position: absolute; */
+    display: flex;
+    width: 87px;
+    height: 38px;
+
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+
+    color: #495057;
+    margin: 2px 0 10px 110px;
+}
+
+.vantagens .left img {
+    position: absolute;
+    width: 6px;
+    height: 146px;
+    margin-left: 300px;
+    top: -5px;
+}
+
+.vantagens .left .titulo {
+    position: absolute;
+    width: 149px;
+    height: 25px;
+
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #495057;
+
+    margin-left: 400px;
+    top: 55px;
+}
+
+.vantagens .left .grupo1 img {
+    position: absolute;
+    width: 44.6px;
+    height: 53px;
+    margin-left: 650px;
+}
+
+.vantagens .left .grupo1 p {
+    position: absolute;
+    width: 120px;
+    height: 44px;
+    
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #495057;
+    margin-left: 610px;
+    top: 50px;
+}
+
+/* fim left */
+
+.vantagens .right .seta1 {
+    position: absolute;
+    width: 8px;
+    height: 16px;
+    opacity: 0.7;
+    margin-left: 800px;
+    top: 50px;
+}
+
+.vantagens .right .seta2 {
+    position: absolute;
+    width: 8px;
+    height: 16px;
+    margin-left: 1050px;
+    top: 55px;
+}
+
+.vantagens .right .grupo2 .circulo {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    margin-left: 900px;
+    top: -5px;
+}
+
+.vantagens .right .grupo2 .check {
+    position: absolute;
+    margin-left: 916px;
+    top: 15px;
+}
+
+.vantagens .right .grupo2 p {
+    position: absolute;
+    width: 129px;
+    height: 44px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #495057;
+    margin-left: 860px;
+    top: 55px;
+}
+
+.vantagens .right .grupo3 img {
+    position: absolute;
+    width: 42.6px;
+    height: 54px;
+    margin-left: 1160px;
+    top: 1px;
+}
+
+.vantagens .right .grupo3 p {
+    position: absolute;
+    width: 156px;
+    height: 44px;
+
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #495057;
+    margin-left: 1100px;
+    top: 55px;
+}
+
+/* fim right */
+
+/* footer */
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 65px;
+    background: #F6F6F8;
+}
+
+footer .container {
+    position: relative;
+}
+
+footer .copy a img {
+    position: absolute;
+    align-items: center;
+    top: -5px;
+    margin-left: 400px;
+}
+
+footer .copy p {
+    position: absolute;
+    align-items: center;
+    margin-left: 600px;
+
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #495057;
+}
